@@ -353,27 +353,6 @@ npm run type-check
 
 ---
 
-## 🌐 Deployment
-
-### Vercel — Frontend
-
-1. Push the repository to GitHub.
-2. Import the repo at [vercel.com](https://vercel.com) → **Add New Project**.
-3. Leave **Root Directory** as the project root (default).
-4. Add environment variable: `NEXT_PUBLIC_API_URL` → your Render backend URL.
-5. Click **Deploy**.
-
-### Render — Backend
-
-1. Go to [render.com](https://render.com) → **New Web Service**.
-2. Connect your GitHub repo.
-3. Set **Root Directory** to `backend`.
-4. Set **Build Command** to `npm install && npm run build`.
-5. Set **Start Command** to `npm start`.
-6. Add environment variable: `FRONTEND_URL` → your Vercel frontend URL.
-7. Leave `PORT` unset — Render injects it automatically.
-8. Click **Create Web Service**.
-
 ---
 
 ## ⚠️ Disclaimer
